@@ -1,3 +1,3 @@
-FROM busybox
+FROM centos
 RUN useradd guru
-USER guru
+USER root
